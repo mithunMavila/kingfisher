@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    background-image:url(images/kingfisher_ultra_max.jpg);
+    background-size: cover;
+    animation: slider 40s infinite normal;
+    animation-delay: 1S;
+
+    
+}
+@keyframes slider{
+    0%{background-image: url(images/kingfisher_ultra_max.jpg);}
+    20%{background-image: url(images/kingfisherultra_cover.jpg);}
+    40%{background-image: url(images/kingfisher_premium.jpg);}
+    60%{background-image: url(images/kingfisher_storm.jpg);}
+    80%{background-image: url(images/kingfisher_strong.jpg);}
+
+}
+.header{
+    width: 89%;
+    height: 85px;
+    background: transparent;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 160px;
+    align-items: center;
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    margin-left: 15px;
+}
+.logo{
+    border-radius: 0 0 10px 10px;
+}
+
+.list a{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease-in-out;
+}
+
+.list a:hover {
+    border-bottom: 1px solid black;
+    width: fit-content;
+    transition-duration: 3s;
+
+}
+.icon {
+    padding-left:250px;
+    
+    z-index: 1;
+
+}
+.detail{
+    height: 565px;
+    color: #fff;
+    font-weight: bold;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-left: 20%;
+    
+}
+.detail p{
+    padding-bottom: 20px;
+}
+.bottle{
+    height: 1700px;
+    width: 100%;
+    
+}
+.alco{
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20px;
+    text-align: center;
+    
+   
+}
+.img{
+    width: 200px;
+    height: 185px;
+
+}
+.alco :hover{
+    width: 225px;
+    height: 210px;
+    color: #9a0f30;
+}
+.bottle{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.nonalcohead {
+    width: 100%;
+    height: 70px;
+     
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: #9a0f30;
+    
+    
+}
+hr{
+    margin-left: 20%;
+    margin-right: 20;
+    background-color: #9a0f30;
+    
+}
+.nonalco{
+    width: 100%;
+    height: 820px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.nalco :hover{
+    width: 225px;
+    height: 210px;
+    color: #9a0f30;
+}
+.nalco{
+    text-align: center;
+    margin-left: 20%;
+}
+.right{
+    height: 42px;
+    padding-left: 1px;
+    border-radius: 0px 2px 2px 0;
+    padding-bottom: 1px;
+}
+    
+
+.button{
+    font-size:13px;
+    height: 42px;
+    width: 270px;
+    background-color: #9a0f30;
+   color: #fff ;
+   font-weight: bold;
+   border: none;
+   border-radius: 2px 0 2px 2px;
+   margin-bottom: 10px;
+}
+.xplore{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 60PX;
+}
+.get{
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+}
+.touch{
+    border-radius: 0 0 0 6px;
+    border-color: #9a0f30;
+    height: 42px;
+    width: 250px;
+ 
+}
+.end{
+    
+    width: 89%;
+    padding-left: 160px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.about a{
+    color:black;
+    align-self: center;
+    line-height: 1.8em;
+}
+.about a:hover{
+    color: #9a0f30;
+}
+h4{
+    text-decoration: solid;
+   text-decoration: underline;
+   
+}
+.media{
+    width: 89%;
+    padding-left: 160px;
+}
+.media img{
+    margin: 25px;
+}
+.cop{
+    text-align: end;
+    padding-right: 100px;
+    font-size: 12px;
+}
