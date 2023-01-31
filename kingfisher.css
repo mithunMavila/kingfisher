@@ -96,14 +96,17 @@ a{
 
 }
 .alco :hover{
-    width: 225px;
-    height: 210px;
+    scale: 1.1;
     color: #9a0f30;
 }
 .bottle{
     
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .nonalcohead {
     width: 100%;
@@ -124,15 +127,18 @@ hr{
     
 }
 .nonalco{
-    width: 100%;
+    
     height: 820px;
     
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .nalco :hover{
-    width: 225px;
-    height: 210px;
+  scale: 1.1;
     color: #9a0f30;
 }
 .nalco{
